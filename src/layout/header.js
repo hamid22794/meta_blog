@@ -14,19 +14,19 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <a href="/">Home</a>
+                <a href="https://www.google.com/">Home</a>
               </li>
               <li>
-                <a href="/">Blog</a>
+                <a href="https://www.google.com/">Blog</a>
               </li>
               <li>
-                <a href="/">Single Post</a>
+                <a href="https://www.google.com/">Single Post</a>
               </li>
               <li>
-                <a href="/">Pages</a>
+                <a href="https://www.google.com/">Pages</a>
               </li>
               <li>
-                <a href="/">Contact</a>
+                <a href="https://www.google.com/">Contact</a>
               </li>
             </ul>
           </nav>
