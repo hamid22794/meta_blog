@@ -99,7 +99,7 @@ const Footer = () => {
                 Meta<span>Blog</span>
               </h2>
               <p>
-                <b>© JS Template 2023.</b> All Rights Reserved.
+                <p>©JS Template 2023. All Rights Reserved.</p>
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@ const Footer = () => {
                   <a href="https://www.google.com/">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="https://www.google.com/">Cookie Policy</a>
+                  <a href="/">Cookie Policy</a>
                 </li>
               </ul>
             </nav>

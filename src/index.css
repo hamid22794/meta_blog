@@ -282,12 +282,11 @@ footer .footer_inner_grid {
 }
 
 .footer_inner_bottom_left .footer_copyright p {
-  color: var(--secondary-600, #3b3c4a);
+  color: #3b3c4a;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 150% */
 }
 
 .footer_inner_bottom .footer_inner_bottom_right nav ul {

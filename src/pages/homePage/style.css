@@ -17,8 +17,6 @@
     padding: 40px;
     position: absolute;
     width: 40%;
-
-
 }
 
 .banner_inner .banner_post button {
@@ -65,11 +63,6 @@
     /* 150% */
 }
 
-/* Homepage - Bannner Section Ends here! */
-/* ------------------------------------------------------------------------------------------------- */
-
-/* Homepage -Advertisement Section Starts here! */
-
 .advertisement_inner {
     width: 750px;
     height: 100px;
@@ -81,32 +74,53 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.view_all_posts button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #696A75;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px rgba(105, 106, 117, 0.30) solid;
+    background-color: white;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.view_all_posts button p {
+    color: #696A75;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 .advertisement_inner p:first-child {
     color: var(--secondary-500, #696a75);
     text-align: center;
-
-    /* Body/b5/Regular */
     font-family: Work Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    /* 142.857% */
 }
 
 .advertisement_inner h3 {
     color: var(--secondary-500, #696a75);
     text-align: center;
-
-    /* Heading/h4/Semibold */
-    font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
-    /* 120% */
 }
 
 .advertisement_inner p:last-child {
