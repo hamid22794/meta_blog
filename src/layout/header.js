@@ -2,6 +2,7 @@ import React from "react";
 import logoImg from "../images/logo/website_logo.svg";
 import { AiOutlineSearch } from "react-icons/ai";
 import { IoIosSunny } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,19 +15,19 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <a href="https://www.google.com/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="https://www.google.com/">Blog</a>
+                <a href="/">Blog</a>
               </li>
               <li>
-                <a href="https://www.google.com/">Single Post</a>
+                <Link to="/single-post">Single Post</Link>
               </li>
               <li>
-                <a href="https://www.google.com/">Pages</a>
+                <a href="/">Pages</a>
               </li>
               <li>
-                <a href="https://www.google.com/">Contact</a>
+                <a href="/">Contact</a>
               </li>
             </ul>
           </nav>
