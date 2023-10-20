@@ -31,22 +31,22 @@ const Footer = () => {
             <nav>
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="https://www.google.com/">Home</a>
                 </li>
                 <li>
-                  <a href="/">About</a>
+                  <a href="https://www.google.com/">About</a>
                 </li>
                 <li>
-                  <a href="/">Blog</a>
+                  <a href="https://www.google.com/">Blog</a>
                 </li>
                 <li>
-                  <a href="/">Archived</a>
+                  <a href="https://www.google.com/">Archived</a>
                 </li>
                 <li>
-                  <a href="/">Author</a>
+                  <a href="https://www.google.com/">Author</a>
                 </li>
                 <li>
-                  <a href="/">Contact</a>
+                  <a href="https://www.google.com/">Contact</a>
                 </li>
               </ul>
             </nav>
@@ -57,22 +57,22 @@ const Footer = () => {
             <nav>
               <ul>
                 <li>
-                  <a href="">Lifestyle</a>
+                  <a href="https://www.google.com/">Lifestyle</a>
                 </li>
                 <li>
-                  <a href="">Technology</a>
+                  <a href="https://www.google.com/">Technology</a>
                 </li>
                 <li>
-                  <a href="">Travel</a>
+                  <a href="https://www.google.com/">Travel</a>
                 </li>
                 <li>
-                  <a href="">Business</a>
+                  <a href="https://www.google.com/">Business</a>
                 </li>
                 <li>
-                  <a href="">Economy</a>
+                  <a href="https://www.google.com/">Economy</a>
                 </li>
                 <li>
-                  <a href="">Sports</a>
+                  <a href="https://www.google.com/">Sports</a>
                 </li>
               </ul>
             </nav>
@@ -108,13 +108,13 @@ const Footer = () => {
             <nav>
               <ul>
                 <li>
-                  <a href="/">Term of Use</a>
+                  <a href="https://www.google.com/">Term of Use</a>
                 </li>
                 <li>
-                  <a href="/">Privacy Policy</a>
+                  <a href="https://www.google.com/">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="/">Cookie Policy</a>
+                  <a href="https://www.google.com/">Cookie Policy</a>
                 </li>
               </ul>
             </nav>
