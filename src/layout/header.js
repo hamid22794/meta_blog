@@ -36,7 +36,6 @@ const Header = () => {
               <input type="text" placeholder="Search" />
               <AiOutlineSearch />
             </div>
-
             <div className="nav_mode_switch">
               <div className="nav_button">
                 <IoIosSunny />

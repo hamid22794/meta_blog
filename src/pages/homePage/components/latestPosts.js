@@ -25,7 +25,7 @@ const LatestPosts = () => {
       <section className="section_margin">
         <div className="page_width">
           <div className="latest_posts_inner">
-            <div className="latest_posts_inner_head">
+            <div className="latest_posts_inner_heading">
               <h2> Latest Posts</h2>
             </div>
             <div className="latest_posts_inner_body_grid">
