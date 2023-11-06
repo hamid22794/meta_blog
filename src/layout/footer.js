@@ -1,6 +1,7 @@
 import React from "react";
 import logoImg from "../images/logo/website_logo.svg";
 import { AiOutlineMail } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -46,7 +47,7 @@ const Footer = () => {
                   <a href="/">Author</a>
                 </li>
                 <li>
-                  <a href="/">Contact</a>
+                  <Link to="/contact-page">Contact</Link>
                 </li>
               </ul>
             </nav>
