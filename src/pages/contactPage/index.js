@@ -17,10 +17,11 @@ const ContactPage = () => {
   };
 
   const submitData = () => {
-    if (fname != "" && lname != "") {
+    if (fname !== "" && lname !== "") {
       axios
-        .get(
-          "https://dev-275895861389117.api.raw-labs.com/json-programming-heroes"
+        .post(
+          "https://dev-275895861389117.api.raw-labs.com/json-programming-heroes",
+          formData
         )
         .then(function (response) {
           console.log(response);
