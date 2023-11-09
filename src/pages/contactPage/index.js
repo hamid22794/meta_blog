@@ -19,7 +19,9 @@ const ContactPage = () => {
   const submitData = () => {
     if (fname != "" && lname != "") {
       axios
-        .post("https://jsonplaceholder.typicode.com/posts", formData)
+        .get(
+          "https://dev-275895861389117.api.raw-labs.com/json-programming-heroes"
+        )
         .then(function (response) {
           console.log(response);
         })
@@ -28,10 +30,10 @@ const ContactPage = () => {
         });
     } else {
       setError("Please fill all input fields");
-    }
-  };
+    
+      
   return (
-    <div>
+    <>
       <Layout>
         <div className="contact_page">
           <h2>Contact Us</h2>
@@ -77,7 +79,7 @@ const ContactPage = () => {
           </div>
         </div>
       </Layout>
-    </div>
+    </>
   );
 };
 
