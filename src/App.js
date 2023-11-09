@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" exact Component={HomePage} />
         <Route path="/single-post" exact Component={SinglePost} />
-        <Route path="/contact-page" exact Component={ContactPage} />
+        <Route path="/contact" exact Component={ContactPage} />
       </Routes>
     </>
   );

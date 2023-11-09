@@ -47,7 +47,7 @@ const Footer = () => {
                   <a href="/">Author</a>
                 </li>
                 <li>
-                  <Link to="/contact-page">Contact</Link>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>
