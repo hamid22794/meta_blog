@@ -30,8 +30,8 @@ const ContactPage = () => {
         });
     } else {
       setError("Please fill all input fields");
-    
-      
+    }
+  };
   return (
     <>
       <Layout>
