@@ -74,7 +74,6 @@ const ContactPage = () => {
               />
             </div>
           </div>
-
           <div className="btn_send">
             <button onClick={submitData}>Send</button>
           </div>
