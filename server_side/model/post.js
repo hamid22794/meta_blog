@@ -16,7 +16,6 @@ const postSchema = new mongoose.Schema({
     password: {
         type: String
     }
-
 })
 
 
