@@ -1,10 +1,13 @@
 import express from "express";
+import upload from "../utils/upload.js";
 import {
   createPost,
   getPosts,
   getPost,
   updatePost,
 } from "../controller/post-controller.js";
+
+import {uploadImage, getImage} from "../controller/image-controller.js"
 
 import {
   createCategory,
@@ -13,6 +16,7 @@ import {
 } from "../controller/category-controller.js";
 
 import {
+  loginUser,
     signUp
   } from "../controller/user-controller.js";
 
@@ -20,6 +24,11 @@ const router = express.Router();
 
 // create user
 router.post("/sign_up", signUp);
+router.post("/login", loginUser);
+
+// image upload
+router.post("/file/upload", upload.single('file'),uploadImage);
+router.get("/file/:filename", getImage);
 
 // create post
 router.post("/create_post", createPost);

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../../layout";
 import "./style.css";
 import axios from "axios";
@@ -10,6 +10,26 @@ const ContactPage = () => {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
+  const [file, setFile] = useState("");
+  const [picurl, setPicUrl] = useState(null);
+  useEffect(() => {
+    const getImage = async () => {
+      if (file) {
+        const data = new FormData();
+        data.append("name", file.name);
+        data.append("file", file);
+        axios
+          .post("http://localhost:6000/api/file/upload", data)
+          .then(function (response) {
+            setPicUrl(response.data);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+      }
+    };
+    getImage();
+  }, [file]);
 
   const formData = {
     title: fname,
@@ -73,6 +93,8 @@ const ContactPage = () => {
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
+            <input type="file" onChange={(e) => setFile(e.target.files[0])} />
+              <img src={picurl} alt="Images" />
           </div>
           <div className="btn_send">
             <button onClick={submitData}>Send</button>
