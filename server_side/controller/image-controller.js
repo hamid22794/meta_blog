@@ -1,7 +1,7 @@
 import grid from "gridfs-stream";
 import mongoose from "mongoose";
 
-const url = 'http://localhost:6000';
+const url = 'http://localhost:4000';
 
 let gfs, gridfsBucket;
 const conn = mongoose.connection;

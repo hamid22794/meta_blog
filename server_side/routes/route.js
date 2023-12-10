@@ -7,7 +7,7 @@ import {
   updatePost,
 } from "../controller/post-controller.js";
 
-import {uploadImage, getImage} from "../controller/image-controller.js"
+import {uploadImage} from "../controller/image-controller.js"
 
 import {
   createCategory,

@@ -6,13 +6,14 @@ import Connection from './database/db.js';
 
 
 const app = express();
+app.use(cors())
 app.use(bodyParser.json({ extended: true }))
 app.use(bodyParser.urlencoded({ extended: true }))
-app.use(cors())
 
-app.use('/api/', Router)
 
-const Port = 6000
+app.use('/', Router)
+
+const Port = 4000
 app.listen(Port, () => console.log(`Server Running on port ${Port}`));
 
 Connection();
